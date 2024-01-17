@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+flask = "*"
+grpcio = "*"
+gunicorn = "*"
+keras = "*"
+keras-preprocessing = "==1.1.2"
+matplotlib = "*"
+matplotlib-inline = "*"
+mistune = "*"
+multidict = "*"
+munkres = "==1.1.4"
+nbconvert = "*"
+nbformat = "*"
+nest-asyncio = "*"
+notebook = "*"
+numpy = "*"
+pandas = "==1.4.2"
+pillow = "*"
+requests = "*"
+rsa = "*"
+scipy = "==1.11.4"
+tensorboard = "*"
+tensorboard-data-server = "*"
+tensorboard-plugin-wit = "*"
+tensorflow = "==2.9.1"
+webencodings = "==0.5.1"
+werkzeug = "*"
+yarl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
